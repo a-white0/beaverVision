@@ -4,7 +4,7 @@ frameWidth = 640
 frameHeight = 480
 minArea = 500
 color = (255, 0, 255)
-woodCascade = cv2.CascadeClassifier("Resources/cascade_wood.xml")
+woodCascade = cv2.CascadeClassifier("cascade_wood.xml")
 #-----------------------#
 cap = cv2.VideoCapture(0)
 cap.set(3, frameWidth)
